@@ -1,16 +1,13 @@
-# HTML_CSS
 
-## Tabla Periódica
+<h2 align="center">
+  <img alt="HTML Badge" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"><br>
+  Exercises - Challenges
+</h2>
 
-<p style="font-size:12px;">
-  <a href="./Tabla Periodica">Tabla periódica</a>
-</p>
-<h2>Hover</h2>
-<p align="center">
-  <img src="img/01_periodic.png" alt="periodic table" width="1400" height="700"/>
-</p>
-<br/>
-<h2>Normal</h2>
-<p align="center">
-  <img src="img/02_periodic.png" alt="periodic table" width="1400" height="700"/>
-</p>
+---
+
+### Challenge 1
+
+[:page_facing_up: Curriculum Vitae](./2_html/cv2/index.html)
+
+[View live]()
