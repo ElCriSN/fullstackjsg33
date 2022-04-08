@@ -10,4 +10,4 @@
 
 [:page_facing_up: Curriculum Vitae](./2_html/cv2/index.html)
 
-[View live]()
+[View live](https://enidev911.github.io/fullstackjsg33/2_html/cv2/index.html)
