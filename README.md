@@ -8,6 +8,6 @@
 
 ### Challenge 1
 
-[:page_facing_up: Curriculum Vitae](./2_html/cv2/index.html)
+<a href="./2_html/cv2/index.html"><img src="./2_html/cv2/assets/favicon/favicon.ico" width="28"/> Go to code</a>
 
 [View live](https://enidev911.github.io/fullstackjsg33/2_html/cv2/index.html)
