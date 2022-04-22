@@ -1,0 +1,33 @@
+body {
+	font-family: monospace, Verdana, "Century gothic";
+	*/ background-color: #000;
+	font-size: 18px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+header {
+	margin-bottom: 40px;
+	/*background-color: #000;*/
+}
+
+.carousel-item img {
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+
+/*Buttons carousel*/
+.carousel-control-next-icon {
+	background-image: url("../png/next.png");
+	transform: scale(2);
+}
+
+.carousel-control-prev-icon {
+	background-image: url("../png/previous.png");
+	transform: scale(2);
+}

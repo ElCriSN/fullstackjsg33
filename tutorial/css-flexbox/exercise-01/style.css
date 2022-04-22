@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+	color: steelblue;
+}
+
+.flex-container {
+	background: cyan;
+	display: flex;
+	justify-content: center;
+	height: 300px;
+
+}
+
+.flex-item{
+	background: tomato;
+	color: white;
+}
+
+.flex-item:nth-child(odd){
+	background: teal;
+}
