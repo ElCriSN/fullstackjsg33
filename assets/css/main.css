@@ -1,6 +1,7 @@
 body {
 	font-family: monospace, Verdana, "Century gothic";
-	*/ background-color: #000;
+	border: 1px solid red;
+	width: 100%;
 	font-size: 18px;
 }
 
@@ -15,19 +16,41 @@ header {
 	/*background-color: #000;*/
 }
 
+.carousel-item {
+	height: 100vh;
+}
+
 .carousel-item img {
 	border-radius: 4px;
 	margin-bottom: 20px;
 }
 
+.carousel-item a img {
+	width: 60%;
+	height: 80%;
+}
 
 /*Buttons carousel*/
 .carousel-control-next-icon {
 	background-image: url("../png/next.png");
-	transform: scale(2);
+	transform: scale(3);
 }
 
 .carousel-control-prev-icon {
 	background-image: url("../png/previous.png");
-	transform: scale(2);
+	transform: scale(3);
+}
+
+/* Media queries */
+@media screen and (max-width: 500px) {
+
+	/* .row a img {
+		width: 40%;
+		opacity: 0.3;
+	} */
+	.row div.col-sm-12 {
+		background-color: black;
+		border: 3px solid black;
+	}
+
 }
