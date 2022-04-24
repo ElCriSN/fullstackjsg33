@@ -1,0 +1,328 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+
+}
+
+/* General styles */
+.container,
+.wave-container {
+  width: 90%;
+  max-width: 100%;
+  overflow: hidden;
+  margin: auto;
+  padding: 0 0 80px 0;
+}
+
+/* Buttons */
+a.cta {
+  font-size: 1.2em;
+  padding: 13px 6px;
+}
+
+
+.container-header {
+  background-image: linear-gradient(-45deg, rgba(18, 3, 31, 0.673) 0%, rgba(2, 33, 74, 0.322) 100%), url("../imgs/header.jpg");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container-banner h1 {
+  font-family: 'Fira Code';
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.container-banner p {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.container-banner a {
+  display: inline-block;
+  width: 20%;
+  text-decoration: none;
+  background-color: #f7f3c1;
+  border-radius: 3px;
+  transition: .3s;
+  font-size: 2em;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.container-banner a:hover{
+  background: #f5576c;
+  color: #fff;
+  opacity: 1;
+}
+
+.container-banner img.logo {
+  width: 10em;
+}
+
+.svg-wave {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+
+
+/* Courses products */
+.course {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  width: 90%;
+  height: 100%;
+  align-items: stretch;
+  margin: auto auto 2% auto;
+  border-radius: 6px;
+  border: 1px solid rgba(25, 25, 25, 0.1);
+  padding: 10px;
+  box-shadow: 5px 5px 10px #8888885c;
+  transition: .2s;
+  background: rgb(133, 119, 143);
+  background: linear-gradient(90deg, rgba(133, 119, 143, 1) 0%, rgba(175, 208, 210, 0.7091211484593838) 50%, rgba(180, 176, 203, 0.5466561624649859) 100%)
+}
+
+
+.course:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 5px 3px #8888888e;
+}
+
+.course img {
+  width: 45%;
+  border: 1px solid gray;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  font-size: 1.5em;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-basis: 50%;
+  /* border: 1px solid red; */
+
+}
+
+.container-text p.text-paragraphs {
+  margin-top: 0;
+  flex-grow: 1;
+  /* border: 1px solid red; */
+}
+
+.container-text a.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-color: #0b23aade;
+  color: #fff;
+  text-decoration: none;
+  transition: .3s ease-out;
+}
+
+.container-text a.cta:hover {
+  background-color: #ebfc01e5;
+  color: #501;
+}
+
+
+
+.title {
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+  /* border: 1px solid red; */
+}
+
+
+/* Services  - Cards*/
+.content-cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  text-align: center;
+  height: 300px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  transition: transform 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+}
+
+.card i {
+  margin: 30px 0 20px 0;
+  color: rgba(0, 0, 200, 0.6);
+  cursor: pointer;
+  font-size: 70px;
+}
+
+.card p {
+  font-size: 1.3em;
+}
+
+.card h3 {
+  font-size: 1.6em;
+}
+
+/* Galery  */
+.galery {
+  width: 90%;
+  background: #f2f2f2;
+}
+
+.galery-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.galery-container>h2 {}
+
+.galery-container>img {
+  width: 30%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  display: block;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* Footer */
+/* Contacts form */
+footer {
+  background-color: #f5576c;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.input {
+
+  width: 40%;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1.9em;
+}
+
+.input::placeholder {
+  color: #fff;
+}
+
+textarea.input {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  margin-top: 20px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: .4s;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  background-color: #501;
+
+}
+
+footer div.container>p {
+  display: block;
+  position: absolute;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 100%;
+  font-weight: bold;
+  font-size: 1.4em;
+  background-color: #fff;
+  color: #f5576c;
+  left: 0;
+  text-align: center;
+  margin-top: 3%;
+}
+
+/*
+Responsive design 
+@media screen and (max-width: 500px) {
+  .course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    width: 100%;
+  }
+
+  .course img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .galery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .galery img {
+    width: 100%;
+  }
+}
+
+*/
