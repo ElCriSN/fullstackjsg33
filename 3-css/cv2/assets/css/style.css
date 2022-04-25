@@ -1,7 +1,7 @@
-body{
+body {
 	width: 100%;
-	background: rgb(255,254,250);
-	background: linear-gradient(90deg, rgba(255,254,250,1) 0%, rgba(254,253,248,0.9500175070028011) 52%, rgba(255,255,255,0.8911939775910365) 100%);
+	background: rgb(255, 254, 250);
+	background: linear-gradient(90deg, rgba(255, 254, 250, 1) 0%, rgba(254, 253, 248, 0.9500175070028011) 52%, rgba(255, 255, 255, 0.8911939775910365) 100%);
 }
 
 h1 {
@@ -10,16 +10,16 @@ h1 {
 
 h2 {
 	font-size: 2.5em;
-
 }
 
 h3 {
 	font-size: 2em;
 }
 
-h4{
+h4 {
 	font-size: 1.5em;
 }
+
 header {
 	display: flex;
 	flex-direction: column;
@@ -27,14 +27,17 @@ header {
 	padding: 0 40px;
 }
 
-section, footer{
+section,
+footer {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
 	padding: 0 10%;
 }
 
-section p, section ul li, section ol li {
+section p,
+section ul li,
+section ol li {
 	font-size: 1.3em;
 	list-style: none;
 }
@@ -44,7 +47,7 @@ section ul li img {
 	height: 20px;
 }
 
-section ul.skills{
+section ul.skills {
 	color: green;
 }
 
@@ -52,7 +55,7 @@ footer {
 	font-size: 1.3em;
 }
 
-footer blockquote a  {
+footer blockquote a {
 	text-decoration: none;
 }
 
