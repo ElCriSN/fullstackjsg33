@@ -156,16 +156,29 @@ footer {
     background-color: #1E1A13;
     text-align: center;
     line-height: 7vw;
+    color: #fff;
+
 }
 
-footer>p,
-a {
-
+footer>p {
     height: inherit;
     width: inherit;
-    color: #fff;
     font-size: 1.8vw;
+}
+
+a {
     text-decoration: none;
+    color: #fff;
+    transition: .3s;
+
+}
+
+a:visited {
+    color: #cac;
+}
+
+a:hover {
+    color: peru;
 }
 
 /* End */
