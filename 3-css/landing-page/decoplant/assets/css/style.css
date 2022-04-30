@@ -8,9 +8,9 @@ body {
   padding: 5em;
   font-size: 1.3em;
   background-image: url("../imgs/fondo.jpg");
-
   background-size: cover;
   background-position: center;
+  background-repeat: none;
 }
 
 .header h1 {
