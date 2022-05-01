@@ -4,3 +4,5 @@
 *.pdf
 *.txt
 *.xls
+Thumbs.db
+*/Thumbs.db
