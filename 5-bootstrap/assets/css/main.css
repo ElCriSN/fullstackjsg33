@@ -1,0 +1,36 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+    --dark: #212529;
+    --dark-light: #707070;
+    --light: #F8F9FA;
+    --white: #fff;
+    --success: #28a745;
+    --black: #000;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+    background-color: var(--light);
+}
+
+.header {
+    background-color: var(--success);
+}
+
+.logo {
+    display: inline-block;
+}
+
+.menu {}
