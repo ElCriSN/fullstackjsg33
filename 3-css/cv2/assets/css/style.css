@@ -1,0 +1,16 @@
+* {
+/* margin: 0; */
+/* padding: 0; */
+}
+
+body {
+  width: 1280px;
+}
+
+header {
+  background-color: smooth;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
