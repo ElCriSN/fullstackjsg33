@@ -1,3 +1,8 @@
-*.mp4
-*.mp3
 .vscode/
+*.mp3
+*.mp4
+*.pdf
+*.txt
+*.xls
+Thumbs.db
+*/Thumbs.db

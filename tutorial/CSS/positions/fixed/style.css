@@ -1,0 +1,33 @@
+/* POSITION 
+===========    
+Fixed : 
+    top: 0
+    left: 0
+
+Nota: El elemento posicionado con Fixed siempre toma
+como referencia el elemento HTML.
+*/
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #333;
+    color: #fff;
+    font-family: monospace;
+    padding-top: 100px;
+}
+
+header {
+    text-align: center;
+    padding: 25px 0;
+    background-color: lightskyblue;
+    color: orangered;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

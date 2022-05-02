@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 /* margin: 0; */
 /* padding: 0; */
@@ -13,4 +14,75 @@ header {
   display: inline-block;
   text-align: center;
   margin: auto;
+=======
+body {
+	width: 100%;
+	background: rgb(255, 254, 250);
+	background: linear-gradient(90deg, rgba(255, 254, 250, 1) 0%, rgba(254, 253, 248, 0.9500175070028011) 52%, rgba(255, 255, 255, 0.8911939775910365) 100%);
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 40px;
+}
+
+section,
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	padding: 0 10%;
+}
+
+section p,
+section ul li,
+section ol li {
+	font-size: 1.3em;
+	list-style: none;
+}
+
+section ul li img {
+	width: 25px;
+	height: 20px;
+}
+
+section ul.skills {
+	color: green;
+}
+
+footer {
+	font-size: 1.3em;
+}
+
+footer blockquote a {
+	text-decoration: none;
+}
+
+footer blockquote a img {
+	width: 40px;
+	height: 40px;
+	transition: 0.7s;
+}
+
+footer blockquote a img:hover {
+	filter: opacity(0.4) drop-shadow(0 0 0 red);
+>>>>>>> ec157618e85cd1dce153d54bee6ca26b54d06e9a
 }
