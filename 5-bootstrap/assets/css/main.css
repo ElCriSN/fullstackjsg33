@@ -25,12 +25,15 @@ body {
     background-color: var(--light);
 }
 
+
 .header {
     background-color: var(--success);
+
 }
 
-.logo {
-    display: inline-block;
-}
 
-.menu {}
+
+
+li {
+    list-style: none;
+}
