@@ -1,4 +1,5 @@
 .vscode/
+*.zip
 *.mp3
 *.mp4
 *.pdf
