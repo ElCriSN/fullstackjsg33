@@ -31,8 +31,10 @@ body {
 
 }
 
-
-
+.card-footer {
+    background-color: var(--white);
+    padding: 0;
+}
 
 li {
     list-style: none;
