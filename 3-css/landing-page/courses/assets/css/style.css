@@ -16,7 +16,6 @@ html {
 }
 
 body {
-  min-height: 100vh;
   max-width: 100vw;
   font-family: 'Raleway', sans-serif;
   background-color: #fff;
@@ -41,10 +40,10 @@ body {
 .header h1 {
   font-family: 'Fira Code', monospace;
   font-weight: 500;
-  font-size: 5vw;
+  width: 100%;
+  font-size: 3em;
   text-align: center;
-  padding: 1vw;
-  margin: 5% 0;
+  margin: 10% 0;
 }
 
 .header p {
@@ -59,10 +58,11 @@ body {
   text-decoration: none;
   color: #fff;
   opacity: 0.6;
-  font-size: 2vw;
+  font-size: 2.4vw;
+  height: 3em;
+  line-height: 3em;
   border-radius: 5px;
-  padding: 12px;
-  margin: auto;
+  margin: 5% auto;
   transition: .3s
 }
 
@@ -92,7 +92,7 @@ body {
   text-align: center;
   overflow: hidden;
   transition: transform 0.3s;
-  height: 60vh;
+  height: 70vh;
 }
 
 @media screen and (max-width: 570px) {
@@ -113,6 +113,24 @@ body {
   .container-text {
     min-width: 80%;
   }
+
+  .galery {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 100vw;
+  }
+
+  .galery-img {
+    min-width: 100%;
+    min-height: 60vh;
+    border: 1px solid red;
+  }
+
+  .galery-img img {
+    width: 100%;
+  }
+
 }
 
 .course:hover {
