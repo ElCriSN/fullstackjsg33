@@ -25,6 +25,7 @@ body {
 
 .header {
   width: 100%;
+  border: 1px solid red;
   min-height: 100vh;
   background-image: linear-gradient(-45deg, rgba(18, 3, 31, 0.8) 0%, rgba(2, 33, 74, 0.4) 100%), url("../imgs/header.jpg");
   background-repeat: no-repeat;
@@ -46,15 +47,18 @@ body {
   text-align: center;
   margin: 2em 0;
   color: cornsilk;
+
 }
 
 .header p {
   font-size: 2.4em;
-  margin-bottom: 3%;
 }
 
 .header a {
-  display: inline;
+  display: block;
+  position: absolute;
+  bottom: 1vw;
+  right: 40vw;
   background-color: rgba(255, 100, 100, 0.4);
   text-decoration: none;
   color: #fff;
@@ -62,7 +66,7 @@ body {
   font-size: 2.5em;
   padding: 0.3em 0.2em;
   border-radius: 5px;
-  margin: 5% auto;
+  margin: auto;
   transition: .3s
 }
 
